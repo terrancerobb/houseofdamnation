@@ -53,6 +53,11 @@ a:hover{
 .navbar-nav>li:first-of-type>a{
   border-top: solid 1px #222;
 }
+.nav>li>a.nav-link:hover,
+.nav>li>a.nav-link:active,
+.nav-item.active a{
+  background-color: transparent;
+}
 .nav-link, .nav>li>a.nav-link:focus{
   color: #fff;
 }
