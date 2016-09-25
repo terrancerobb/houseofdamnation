@@ -1,0 +1,75 @@
+---
+layout: default
+bodyclass: homepage
+title: House of Damnation, Toledo Ohio Haunted House
+metatitle: House of Damnation, Toledo Ohio Haunted House
+metadesc: Are you ready to be terrified? Originally a backyard haunt, this trip to hell will mortify you from the moment you set foot inside.
+---
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="col-md-7 col-md-offset-1 col-lg-6 intro__content">
+                <img src="img/headerlogo.png" alt="House of Damnation: Haunted House" class="img-responsive intro__logo">
+                <a href="https://www.google.com/maps/place/Lucas+County+Recreation+Center/@41.5846701,-83.6456064,17z/data=!3m1!4b1!4m5!3m4!1s0x883c79d7e53ec6f9:0x28841997e3c660ea!8m2!3d41.5846701!4d-83.6434177" class="intro__address" target="_blank">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>LUCAS COUNTY RECREATION CENTER 2901 KEY ST. MAUMEE OH, 43537
+                </a>
+                <a href="https://www.eventbrite.com/e/house-of-damnation-haunted-house-tickets-26077478440" class="btn intro__button" target="_blank">
+                  <i class="fa fa-ticket" aria-hidden="true"></i>Get Tickets
+                </a>
+                <a href="#nav-sticky" class="btn page-scroll intro__button">
+                  <i class="fa fa-info-circle" aria-hidden="true"></i>More Info
+                </a>
+            </div>
+            <div class="col-md-12 intro__scrollContainer">
+              <a href="#about" class="page-scroll intro__scroll">
+                  <img src="img/scrolldown.png" alt="Scroll Down">
+              </a>
+            </div>
+        </div>
+    </header>
+    <header class="navigation">
+      {% include nav.html %}
+    </header>
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center about">
+        <div class="row">
+            <div class="col-md-5">
+              <img src="img/monster-door.png" alt="Welcome home!" class="img-responsive" style="margin: 0 auto;">
+            </div>
+            <div class="col-md-7">
+                <h1>House of Damnation</h1>
+                <hr style="max-width: 150px; padding: 15px 0;">
+
+                <h2>Welcome home</h2>
+                <p>Are you ready to be terrified? Originally a backyard haunt, this brand-new trip to hell will mortify you from the moment you set foot inside.</p>
+
+                <p>Established in 2012, Revelations Haunted Attractions began as a gathering of family and friends. Today, House of Damnation is something beyond costumes and family fun. This haunted attraction will throw you onto thrill ride of excitement, as you delve into the world of the dead and depraved.</p>
+
+                {% comment %}
+                <p>Owners Mike Kruzel (designer and builder) and Kris Kruzel (prop designer / makeup and costume effects) built this awe-inspiring haunt with nothing but sweat and passion. We hold the conviction that our haunt will leave you petrified, distressed, and restless.</p>
+                {% endcomment %}
+
+                <p>You will be sweating bullets upon entering. Let's see if you have what it takes to walk through the House of Damnation without succumbing to pure terror and dread.</p>
+
+                <p>See you there...</p>
+            </div>
+
+            <div class="col-md-12 sponsors">
+              <img style="display: block; margin: 2em auto;" src="img/sponsors.png" alt="Our sponsors include Vito's Pizza, Brondes of Maumee, and Line Drive Sportz" class="img-responsive">
+              <p>Vito's Pizza is providing free pizza every night, first-come first-served!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="calendar" id="calendar">
+      <div class="container content-section text-center">
+        <h1>Calendar</h1>
+        <hr style="max-width: 150px; padding: 15px 0;">
+        <p>This haunt is indoors, in an 8400-foot complex - therefore we will run the House of Damnation rain or shine!</p>
+        <p><strong>Hours: 8PM to close</strong></p>
+        {% include calendar.html %}
+        <a href="https://www.eventbrite.com/e/house-of-damnation-haunted-house-tickets-26077478440" class="btn" target="_blank" style="margin-top: 2em;">
+          <i class="fa fa-ticket" aria-hidden="true"></i>Get Tickets
+        </a>
+      </div>
+    </section>
