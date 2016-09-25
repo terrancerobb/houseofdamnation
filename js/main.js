@@ -115,14 +115,13 @@
           $("#player").attr("src","");
       });
 
-      if($win.width() > 767){
-        $("#soundcloud").attr("src","https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/225862382&amp;color=020405&amp;auto_play=true&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=falsee&amp;buying=falsee&amp;sharing=false&amp;theme_color020405");
-        $(".soundCloud").addClass("shown");
-			}
     });
 
 		$win.load(function() {
-
+      if($win.width() > 767){
+        $("#soundcloud").attr("src","https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/225862382&amp;color=020405&amp;auto_play=true&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=falsee&amp;buying=falsee&amp;sharing=false&amp;theme_color020405");
+        $(".soundCloud").addClass("shown");
+      }
 		})
 
     $win.scroll(function() {
