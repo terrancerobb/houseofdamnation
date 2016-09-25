@@ -5,8 +5,8 @@ html {
   box-sizing: inherit;
 }
 body {
-    background-color: #020405;
-    font-family: 'Open Sans', sans-serif;
+  background-color: #020405;
+  font-family: 'Open Sans', sans-serif;
 }
 a, a:focus{
   color: #ccc;
@@ -56,28 +56,21 @@ a:hover{
 .nav-link, .nav>li>a.nav-link:focus{
   color: #fff;
 }
-.nav>li>a.nav-link:hover,
-.nav>li>a.nav-link:active,
-.nav-item.active a{
-  color: #fff;
-  background-color: #c50707;
-  border-color: #c50707;
-}
 .intro {
-    color: #fff;
-    display: block;
-    background: url(../img/homebg.jpg) bottom center no-repeat #000;
-    background-position: bottom left;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    position: relative;
-    padding: 32px 0;
+  color: #fff;
+  display: block;
+  background: url(../img/homebg.jpg) bottom center no-repeat #000;
+  background-position: bottom left;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  position: relative;
+  padding: 32px 0;
 }
 .intro .intro-body {
-    display: block;
-    padding-top: 1em;
+  display: block;
+  padding-top: 1em;
 }
 .intro__logo{
   margin: 0 auto 1em;
@@ -104,15 +97,15 @@ a:hover{
   margin-top: 5px;
 }
 @-webkit-keyframes Floatingx{
-    from {-webkit-transform:translate(0, 0px);}
-    65% {-webkit-transform:translate(0, 10px);}
-    to {-webkit-transform: translate(0, -0px);    }
+  from {-webkit-transform:translate(0, 0px);}
+  65% {-webkit-transform:translate(0, 10px);}
+  to {-webkit-transform: translate(0, -0px);    }
 }
 
 @-moz-keyframes Floating{
-    from {-moz-transform:translate(0, 0px);}
-    65% {-moz-transform:translate(0, 10px);}
-    to {-moz-transform: translate(0, -0px);}
+  from {-moz-transform:translate(0, 0px);}
+  65% {-moz-transform:translate(0, 10px);}
+  to {-moz-transform: translate(0, -0px);}
 }
 .intro__scroll img{
   max-width: 250px;
@@ -140,32 +133,32 @@ a:hover{
   text-shadow: none;
 }
 .modal-body {
-	position:relative;
-	padding-bottom:57.25%;
-	padding-top:30px;
-	height:0;
-	overflow:hidden;
+  position:relative;
+  padding-bottom:57.25%;
+  padding-top:30px;
+  height:0;
+  overflow:hidden;
 }
 
 .modal-body iframe, .modal-body object, .modal-body embed {
-	position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
 }
 .modal-dialog{
   width: 60%;
 }
 .download-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(../img/homebg.jpg) bottom center no-repeat #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+  width: 100%;
+  padding: 50px 0;
+  color: #fff;
+  background: url(../img/homebg.jpg) bottom center no-repeat #000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 .calendar{
   padding-bottom: 150px;
@@ -237,7 +230,7 @@ footer p{
     padding: 0;
   }
   .intro .intro-body {
-      padding-top: 60px;
+    padding-top: 60px;
   }
   .intro__content .btn.intro__button{
     display: inline-block;
@@ -252,6 +245,13 @@ footer p{
   .navigation{
     padding-top: 80px;
   }
+  .nav>li>a.nav-link:hover,
+  .nav>li>a.nav-link:active,
+  .nav-item.active a{
+    color: #fff;
+    background-color: #c50707;
+    border-color: #c50707;
+  }
   .content-section.about{
     padding-top: 120px;
   }
@@ -259,7 +259,7 @@ footer p{
 
 @media (min-width: 992px) {
   .intro .intro-body {
-      padding-top: 80px;
+    padding-top: 80px;
   }
   .intro__scrollContainer{
     display: block;
@@ -269,7 +269,7 @@ footer p{
 
 @media (min-width: 1200px) {
   .intro .intro-body {
-      padding-top: 120px;
+    padding-top: 120px;
   }
   .clown{
     position: absolute;
@@ -284,6 +284,6 @@ footer p{
     padding: 0.25em 1.5em;
   }
   .intro .intro-body {
-      padding-top: 150px;
+    padding-top: 150px;
   }
 }
