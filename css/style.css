@@ -55,6 +55,7 @@ a:hover{
 }
 .nav>li>a.nav-link:hover,
 .nav>li>a.nav-link:active,
+.nav>li>a.nav-link:focus,
 .nav-item.active a{
   background-color: transparent;
 }
