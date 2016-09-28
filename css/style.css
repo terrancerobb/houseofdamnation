@@ -177,6 +177,11 @@ a:hover{
 .calendar .content-section{
   margin-top: 25px;
 }
+.gallery .content-section{
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 50px;
+}
 .content-section{
   padding-top: 64px;
 }
